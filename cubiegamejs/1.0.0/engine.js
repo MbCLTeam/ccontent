@@ -16,14 +16,14 @@ const CubieGameJS = () => {
 
   useEffect(() => {
     // ========================================
-    // CUBIEGAMEJS v2.0.0 - ULTIMATE 2D/3D GAME ENGINE
+    // CUBIEGAMEJS v1.0.0
     // Created by CubieCloud
     // ========================================
     
     class Cubie {
       constructor(config = {}) {
         // Core configuration
-        this.version = '2.0.0';
+        this.version = '1.0.0';
         this.config = {
           canvas: config.canvas,
           width: config.width || window.innerWidth,
